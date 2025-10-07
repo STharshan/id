@@ -24,14 +24,6 @@ const services = [
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
-  {
-    title: "AB MACHINE POLISH",
-    desc: `
-The AB MACHINE POLISH is a full Stage 1 polish of the paintwork including wing mirrors, door pillars and grill
-Interior clean can be added as an optional added extra (see added extras below for more info and prices)`,
-    image: "/paint.webp",
-    path: "/services/wheel-alignment",
-  }
 ];
 
 const ServiceSection = () => {
