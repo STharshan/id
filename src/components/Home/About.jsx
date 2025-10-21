@@ -14,8 +14,8 @@ const AboutSection = () => {
 
   const testimonials = [
   {
-    text: "Wow, so glad I didn't listen to negative reviews.Absolutely amazing job done on removing Dent and respray.1st class service, communication and quality work at a fantastic price, answered any questions promptly.100% use again and highly recommend. 5* plus.",
-    name: "Amy Mccarty",
+    text: "Wow, so glad I didn't listen to negative reviews.Absolutely amazing job done.1st class service, communication and quality work at a fantastic price, answered any questions promptly.100% use again and highly recommend. 5* plus.",
+    name: "Rukhsana Ali",
   },
 
 ]
