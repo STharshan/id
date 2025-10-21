@@ -36,7 +36,7 @@ const HeroSection = () => {
           data-aos="fade-down"
           data-aos-delay="100"
         >
-          Fixing all things cars
+          Fixing all things Tyres
         </h1>
 
         {/* Logo Title */}
@@ -54,7 +54,7 @@ const HeroSection = () => {
           data-aos="fade-up"
           data-aos-delay="300"
         >
-          Bodywork Repairs Newcastle
+          Nottingham Mobile Tyres
         </p>
 
         {/* CTA Button */}

@@ -6,21 +6,21 @@ import "aos/dist/aos.css";
 
 const services = [
   {
-    title: "Alloy Wheel Repair",
-    desc: `Remove scuffs, scratches, and damage for wheels that look brand new.`,
+    title: "Mobile Puncture Repairs",
+    desc: `If you are in Nottingham or the surrounding area and suffer a tyre puncture Nottingham Mobile Tyres can come to you and fix it.`,
     image: "/carpaint.avif",
     path: "/services/mechanical",
   },
   {
-    title: "Dent Removal",
-    desc: `Seamless dent repair to restore panels back to factory condition.
+    title: "Tyre Fitting",
+    desc: `Tyre fitting Mobile Tyres can come to you and fix it.
 ​`,
     image: "/gray.avif",
     path: "/services/service",
   },
   {
-    title: "Bumper Repair",
-    desc: `Repair cracked or scuffed bumpers to a smooth, like-new finish.`,
+    title: "Roadside Assistance",
+    desc: `If you are unfortunate to suffer from an unexpected flat tyre or blow out`,
     image: "/carmechanic.avif",
     path: "/services/mot",
   },
@@ -149,10 +149,10 @@ const ServiceSection = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="absolute inset-0 w-[95%] mt-15 h-55 object-cover"
+                    className="absolute inset-0 w-[75%] mx-auto mt-25 h-15 object-cover"
                     onError={(e) => {
                       e.currentTarget.onerror = null;
-                      e.currentTarget.src = "/logo.jpg"; // fallback logo
+                      e.currentTarget.src = "/logo.png"; // fallback logo
                     }}
                   />
 
